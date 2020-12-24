@@ -3,17 +3,10 @@
 
 2. Sources
    Created by: Sérgio Moro (ISCTE-IUL), Paulo Cortez (Univ. Minho) and Paulo Rita (ISCTE-IUL) @ 2014
+  
+3. bank-additional.csv with 10% of the examples (4119), randomly selected from bank-additional-full.csv.
    
-3. Past Usage:
-
-  The full dataset (bank-additional-full.csv) was described and analyzed in:
-
-  S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems (2014), doi:10.1016/j.dss.2014.03.001.
-4. The zip file includes two datasets: 
-     
-      1) bank-additional.csv with 10% of the examples (4119), randomly selected from bank-additional-full.csv.
-   
- The binary classification goal is to predict if the client will subscribe a bank term deposit (variable y).
+4. The binary classification goal is to predict if the client will subscribe a bank term deposit (variable y).
 
 5. Number of Instances: 41188 for bank-additional-full.csv
 
@@ -45,5 +38,5 @@
   19 - euribor3m: euribor 3 month rate - daily indicator (numeric)
   20 - nr.employed: number of employees - quarterly indicator (numeric)
 
-  Output variable (desired target):
+  # Output variable (desired target):
   21 - y - has the client subscribed a term deposit? (binary: "yes","no")
